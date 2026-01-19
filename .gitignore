@@ -13,6 +13,9 @@ ENV/
 *.pth
 *.onnx
 
+# Archives
+*.zip
+
 # Training outputs
 runs/
 *.cache
