@@ -1,0 +1,6 @@
+path: /home/rohit/Desktop/STL/dataset
+train: train/images
+val: val/images
+
+nc: 2
+names: ['bottle', 'mouse']

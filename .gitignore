@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+
+# Model weights (large files - use Git LFS if needed)
+*.pt
+*.pth
+*.onnx
+
+# Training outputs
+runs/
+*.cache
+
+# Dataset (large - don't commit)
+dataset/train/
+dataset/val/
+dataset/real/
+detections/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Build
+build/
+dist/
+*.egg-info/
